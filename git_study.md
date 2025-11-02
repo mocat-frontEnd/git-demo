@@ -95,6 +95,13 @@ shashen
 sunbo13704426091@outlook.com
 ```
 
+如果上传 github 失败，需要单独为 github 设置代理
+
+```
+git config --global http.proxy http://127.0.0.1:7890
+git config --global https.proxy https://127.0.0.1:7890
+```
+
 ## 常用命令
 
 之后 vscode 打开文件夹，先点击初始化仓库，对应命令为
